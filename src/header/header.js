@@ -36,10 +36,10 @@ const Header = () => {
 				        <i class="fa fa-bars" onClick={navbar} ></i>
 			      </div>
             <div className='nav'  onClick={fun}>
-                <a href='#' className='mob'>HOME</a>
-                <a href='#' className='mob'>ABOUT</a>
-                <a href='#' className='mob'>OUR SERVICES</a>
-                <a href='#' className='mob'>CONTACT</a>
+                <a href='/' >HOME</a>
+                <a href='#' >ABOUT</a>
+                <a href='#' >OUR SERVICES</a>
+                <a href='/contact' >CONTACT</a>
             </div>
 
         </div>
