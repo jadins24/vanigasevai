@@ -28,7 +28,7 @@ export const  serviceData=[
     },
     {       
         id:1,
-        servicename:"Website Designing" ,
+        servicename:"Income Tax Filling" ,
         price: " Rs 6500" ,
         description:"Get your complete website @ Rs 6500 as package. A website is more important because it creates your business. An outdated website will have a negative impression in your business." ,
         icon: "fa fa-facebook",
@@ -37,7 +37,7 @@ export const  serviceData=[
     },
     {       
         id:1,
-        servicename:"" ,
+        servicename:"Company Registration" ,
         price: " " ,
         description:"" ,
         icon: "fa fa-facebook",
@@ -46,13 +46,33 @@ export const  serviceData=[
     },
     {       
         id:1,
-        servicename:"" ,
+        servicename:"TDS return Filling" ,
         price: " " ,
         description:"" ,
         icon: "fa fa-facebook",
         color: "blue"
         
     },
+    {       
+        id:1,
+        servicename:"Accounting Services" ,
+        price: " " ,
+        description:"" ,
+        icon: "fa fa-facebook",
+        color: "blue"
+        
+    }
+    ,
+    {       
+        id:1,
+        servicename:" Digital Signature" ,
+        price: " " ,
+        description:"" ,
+        icon: "fa fa-facebook",
+        color: "blue"
+        
+    }
+    ,
     {       
         id:1,
         servicename:"" ,
@@ -62,5 +82,6 @@ export const  serviceData=[
         color: "blue"
         
     }
+
     
 ]
