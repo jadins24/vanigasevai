@@ -37,8 +37,8 @@ const Header = () => {
 			      </div>
             <div className='nav'  onClick={fun}>
                 <a href='/' >HOME</a>
-                <a href='#' >ABOUT</a>
-                <a href='#' >OUR SERVICES</a>
+                <a href='/about' >ABOUT</a>
+                <a href='/services' >OUR SERVICES</a>
                 <a href='/contact' >CONTACT</a>
             </div>
 

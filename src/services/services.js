@@ -6,8 +6,14 @@ import { useDispatch, useSelector } from "react-redux";
 const Services = () => {
 
     const state = useSelector(({ services }) => services);
+    const navigate = useNavigate();
+    const goToDetails = (key, id) => {
+        console.log("hi");
+        var index = state[key].findIndex((value) => value.id === id);
 
-
+        navigate("/Service-details/" + key + "/" + index);
+    
+      };
 
 
   return (
@@ -32,9 +38,9 @@ const Services = () => {
                                     <p>{value.description}</p>
 
                                     <div className='btns'>
-                                        <a href='#' className='btn'> Contact Now</a>
-                                        <a href='#' className=''> Read More<i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
-                                        
+                                        <a href='tel:+918144414507' className='btn'> Contact Now</a>
+                                        <a href=''    className='' > Read More<i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
+                                        <button onClick={() => goToDetails(value.servicename, value.id)}>fd</button>
                                     </div>
                                 </div>
                             </div>

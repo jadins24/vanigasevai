@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.scss';
+import Form from '../form/form.js';
 const Contact = () => {
 
 
@@ -49,7 +50,7 @@ const Contact = () => {
               
             </div>
                 <div className='contact-form'>
-                  
+                  <Form />
                 </div>
 
             </div>

@@ -8,6 +8,8 @@ import Services from "./services/services";
 import Header from './header/header';
 import Contact from './contact/contact';
 import Footer from './footer/footer';
+import About from "./about/about";
+import ServiceDetails from "./Service-details/service-details";
 const Redux = () =>{
     return(
         <>
@@ -39,11 +41,11 @@ const Routing = () =>{
                     <Header/>
                     <Routes>
                         <Route path='/' element={<Main/>} />
-                        
-                    </Routes>
-                    <Routes>
+                        <Route path='/about' element={<About/>} />
                         <Route path='/contact' element={<Contact/>} />
-                        
+                        <Route path='/services' element={<Services/>} />
+                        <Route path='/Service-details/:key/:index' element={<ServiceDetails/>} />
+                        <Route path='*' element={<Navigate to={'/'} />}/>
                     </Routes>
 
                     <Footer/>

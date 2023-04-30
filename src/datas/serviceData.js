@@ -9,7 +9,7 @@ export const  serviceData=[
         
     },
     {       
-        id:1,
+        id:2,
         servicename:"Website Designing" ,
         price: " Rs 6500" ,
         description:"Get your complete website @ Rs 6500 as package. A website is more important because it creates your business. An outdated website will have a negative impression in your business." ,
@@ -18,7 +18,7 @@ export const  serviceData=[
         
     },
     {       
-        id:1,
+        id:3,
         servicename:"Digital Marketing" ,
         price: "Rs 2000" ,
         description:"Digital marketing services start from Rs 2000/-. Digital marketing is important to reach consumers globally. Digital marketing is online marketing using digital tools like social Media." ,
@@ -27,7 +27,7 @@ export const  serviceData=[
         
     },
     {       
-        id:1,
+        id:4,
         servicename:"Income Tax Filling" ,
         price: " Rs 6500" ,
         description:"Get your complete website @ Rs 6500 as package. A website is more important because it creates your business. An outdated website will have a negative impression in your business." ,
@@ -36,7 +36,7 @@ export const  serviceData=[
         
     },
     {       
-        id:1,
+        id:5,
         servicename:"Company Registration" ,
         price: " " ,
         description:"" ,
@@ -45,7 +45,7 @@ export const  serviceData=[
         
     },
     {       
-        id:1,
+        id:6,
         servicename:"TDS return Filling" ,
         price: " " ,
         description:"" ,
@@ -54,7 +54,7 @@ export const  serviceData=[
         
     },
     {       
-        id:1,
+        id:7,
         servicename:"Accounting Services" ,
         price: " " ,
         description:"" ,
@@ -64,7 +64,7 @@ export const  serviceData=[
     }
     ,
     {       
-        id:1,
+        id:8,
         servicename:" Digital Signature" ,
         price: " " ,
         description:"" ,
@@ -74,7 +74,7 @@ export const  serviceData=[
     }
     ,
     {       
-        id:1,
+        id:9,
         servicename:"" ,
         price: " " ,
         description:"" ,
