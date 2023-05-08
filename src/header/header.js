@@ -9,7 +9,7 @@ const Header = () => {
 	function navbar(){
 		i++;
 		if(i%2==0){
-			document.querySelector('.nav').style='display:flex;width: 50%;flex-direction: column; z-index:99;position: absolute;background: white;right: 0; top: 100px;'
+			document.querySelector('.nav').style='display:flex;width: 50%;flex-direction: column; z-index:99;position: absolute;background: white;right: 0; top: 70px;'
       
 		}
 		if(i%2!=0){
@@ -29,7 +29,7 @@ const Header = () => {
     <div className='header'>
         <div className='header-container'>
             <div className='logo'>
-               <img src={require('../assets/img/logo.png')} alt='no image'/>
+               <img src={require('../assets/img/logo1.png')} alt='no image'/>
             </div>
 
             <div class="menu-bar">
@@ -43,7 +43,10 @@ const Header = () => {
             </div>
 
         </div>
-    </div>
+   
+
+	</div>
+	
   )
 }
 

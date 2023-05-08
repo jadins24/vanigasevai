@@ -7,14 +7,12 @@ const Services = () => {
 
     const state = useSelector(({ services }) => services);
     const navigate = useNavigate();
-    const goToDetails = (key, id) => {
-        console.log("hi");
-        var index = state[key].findIndex((value) => value.id === id);
-
-        navigate("/Service-details/" + key + "/" + index);
-    
+    const goToDetails = (index) => {
+        console.log("sf" + index);
+        navigate("/Service-details/"  + index);
       };
-
+    
+     
 
   return (
     <div className='services'>
@@ -29,18 +27,18 @@ const Services = () => {
                        
                             <div className='services-padding ' key={index}>
                                 <div className='services-card'>
-                                    <i class="fa fa-file-archive-o" aria-hidden="true"></i>
+                                    <i class= {value.icon}  aria-hidden="true"></i>
                                 
-                                    <h2>{value.servicename}</h2>
+                                    <h1 className='servicename'>{value.servicename}</h1>
                                     
                                     <h1>{value.price}<span >/ Excl GST</span> </h1>
 
                                     <p>{value.description}</p>
 
                                     <div className='btns'>
-                                        <a href='tel:+918144414507' className='btn'> Contact Now</a>
-                                        <a href=''    className='' > Read More<i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
-                                        <button onClick={() => goToDetails(value.servicename, value.id)}>fd</button>
+                                        <a href='tel:+919342616702' className='btn'> Contact Now</a>
+                                        <a href=''  onClick={() => goToDetails(index)}  className='' > Read More<i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
+                                    
                                     </div>
                                 </div>
                             </div>

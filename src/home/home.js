@@ -17,6 +17,9 @@ const Home = () =>{
                 <div>
                     <img src={require('../assets/img/homebackground.jpg')} alt='no image'/>
                 </div>
+                <div>
+                    <img src={require('../assets/img/homebg1.jpg')} alt='no image'/>
+                </div>
             </Slider>
         </div>
     );

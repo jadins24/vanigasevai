@@ -1,0 +1,96 @@
+.plan{
+    padding: 20px 0;
+
+
+    .plan-container{
+        width: 85%;
+        margin: 0 auto;
+
+        .plan-head{
+            padding: 30px 0;
+            text-align: center;
+        }
+        .plan-content{
+            display: flex;
+            flex-wrap: wrap;
+
+            .contentp{
+                
+                padding: 0 15px;
+                margin: 20px 0;
+                .content1{
+                    text-align: center;
+                    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.692);
+                    padding: 10px;
+                    border-radius: 10px;
+                    transition: all 0.3s ease-in-out;
+
+                    h3{
+                        padding: 10px 0;
+                    }
+                    hr{
+                        color: rgba(128, 128, 128, 0.377);
+                    }
+                    h2{
+                        padding: 15px 0;
+                        span{
+                            font-size: small;
+                            font-weight: 100;
+                        }
+                    }
+
+                    .list{
+                        text-align: left;
+                        font-size: 14px;
+                        height: 43vh;
+                        p{
+                            padding: 5px 0;
+
+                            i{
+                                padding: 0 5px;
+                                color: #0da2e7;
+                            }
+                        }
+
+                    }
+                    .btn-box{
+                        display: flex;
+                        justify-content: center;
+
+                        .buy-btn{
+                            width: 30%;
+                            border-radius: 10px;
+                            background-color: #49b5e7;
+                        }
+                    }
+
+
+                }
+                .content1:hover{
+                    scale: 1.1;
+                }
+            }
+
+        }
+    }
+}
+
+@media (min-width:320px){
+    .contentp{
+        width: 100%;
+
+    }
+
+}
+@media (min-width:600px){
+    .contentp{
+        width: 50%;
+    }
+
+}
+@media (min-width:1024px){
+    .contentp{
+        width: 33.33%;
+    }
+
+}

@@ -16,7 +16,16 @@
   
   }
   
-  .form :last-child{
+  .btn{
     width: 30%;
-    background-color: green;
+    border: none;
+    border-radius: 8px;
+    background-color: #49b5e7;
+    cursor: pointer;
+    font-size: medium;
+
+  }
+  .btn:hover{
+
+    background-color: #007aff;
   }

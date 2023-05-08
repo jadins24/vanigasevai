@@ -1,18 +1,19 @@
 .footer{
-    
+    background-color: #F0F8FF;
     .footer-container{
         width: 85%;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-        padding: 60px 0px 0px 0px;
+        padding: 30px 0;
 
         .footer-card{
-           
             
-            h1{
+            img{
 
+                width: 150px;
             }
+          
             p{
                 padding: 10px 0;
             }

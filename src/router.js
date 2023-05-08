@@ -10,6 +10,10 @@ import Contact from './contact/contact';
 import Footer from './footer/footer';
 import About from "./about/about";
 import ServiceDetails from "./Service-details/service-details";
+import Plan from "./ourplan/plan";
+import Terms from "./terms/terms";
+import Privacy from "./privacypolicy/privacy";
+import Refund from "./refund/refund";
 const Redux = () =>{
     return(
         <>
@@ -24,6 +28,7 @@ const Main = () =>{
         <>
             <Home />
             <Services />
+            <Plan />
 
             
         </>
@@ -44,7 +49,12 @@ const Routing = () =>{
                         <Route path='/about' element={<About/>} />
                         <Route path='/contact' element={<Contact/>} />
                         <Route path='/services' element={<Services/>} />
-                        <Route path='/Service-details/:key/:index' element={<ServiceDetails/>} />
+                        
+                        <Route path='/Service-details/:index' element={<ServiceDetails/>} />
+                        <Route path='/Privacy policy' element={<Privacy/>} />
+                        <Route path='/terms and conditions' element={<Terms/>} />
+                        <Route path='/refund policy' element={<Refund/>} />
+
                         <Route path='*' element={<Navigate to={'/'} />}/>
                     </Routes>
 

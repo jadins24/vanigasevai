@@ -1,5 +1,5 @@
 .services{
-    
+   
 
     .services-container{
         width:85% ;
@@ -7,6 +7,7 @@
 
         .services-head{
             padding: 30px 0;
+           
             
             h1{
 
@@ -23,18 +24,19 @@
                 
                 padding: 10px;
                 .services-card{
-                    border: 1px solid gray;
+                    border: 0.5px solid rgba(128, 128, 128, 0.589);
                     border-radius: 5px;
                     padding: 10px 10px;
 
                     i{
-                        color:red;
+                        color:rgb(0, 174, 255);
                         font-size: 40px;
                         
                     }
 
-                    h2{
-                        padding: 20px 0;
+                    .servicename{
+                        padding: 15px 0;
+                        font-size: 23px;
                         
                     }
                     h1{
@@ -46,6 +48,10 @@
                     }
                     p{
                         padding: 20px 0;
+                        font-size: 14px;
+                        height: 30vh;
+                        word-spacing: 3px;
+                        text-align: justify;
 
                     }
                     .btns{
@@ -55,7 +61,7 @@
                       
                         .btn{
                             padding: 5px 0;
-                            width: 40%;
+                            width: 50%;
                             background-color: green;
                             text-align: center;
                             border-radius: 50px;
@@ -65,12 +71,12 @@
                         }
                         a{
                             text-decoration: none;
-                            
+                            font-size: 13px;
 
                             i{
                                 font-size: medium;
                                 padding: 0 10px;
-
+                                color: black;
                             }
                         }
 

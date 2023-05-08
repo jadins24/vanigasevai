@@ -6,7 +6,7 @@ const Footer = () =>{
         <div className="footer">
             <div className="footer-container">
             <div className="footer-card res-w">
-                    <h1>LOGO</h1>
+                     <img src={require('../assets/img/logo1.png')} alt='no image'/>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 
@@ -29,19 +29,18 @@ const Footer = () =>{
                 <div className="quick-links res-w">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href=''>About Us</a></li>
-                        <li><a href=''>Services</a></li>
+                        <li><a href='/about'>About Us</a></li>
+                        <li><a href='/services'>Services</a></li>
                         <li><a href=''>Pricing</a></li>
-                        <li><a href=''>Contact</a></li>
+                        <li><a href='/contact'>Contact</a></li>
                     </ul>
                 </div>
                 <div className="usefull-links res-w">
                     <h4>Useful Links</h4>
                     <ul>    
-                        <li><a href=''>Privacy Policy</a></li>
-                        <li><a href=''>Terms and Conditions</a></li>
-                        <li><a href=''>Disclaimer</a></li>
-                        <li><a href=''>Support</a></li>
+                        <li><a href='/Privacy policy'>Privacy Policy</a></li>
+                        <li><a href='/terms and conditions'>Terms and Conditions</a></li>
+                        <li><a href='/refund policy'>Refund Policy</a></li>
                         <li><a href=''>Support</a></li>
                         <li><a href=''>FAQ</a></li>
                     </ul>
@@ -49,13 +48,15 @@ const Footer = () =>{
                 <div className="address res-w">
                     <h3>Address</h3>
                      <a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i>No.22, S-2, 2nd Floor, Victory Riya Apartment, Manikandan Nagar, Kundrathur, Chennai - 600069.</a>
-                     <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>shop@shoplegal.in</a>
-                     <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 98775544413</a>
+                     <a href="mailto:vanigasevai@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>vanigasevai@gmail.com</a>
+                     <a href="tel:+919342616702"><i class="fa fa-phone" aria-hidden="true"></i>+91 9342616702</a>
 
                 </div>
                 
             </div>
         </div>
+
+        
     );
 }
 
