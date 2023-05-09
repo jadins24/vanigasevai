@@ -1,0 +1,36 @@
+.banking{
+    padding: 20px 0;
+
+    .banking-container{
+        width: 85%;
+        margin: 0 auto;
+
+        .banking-head{
+            text-align: center;
+
+        }
+        .banking-content{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+
+            .content1{
+                width: 25%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 50%;
+                    transition: all .5s ease-in-out;
+                }
+                img:hover{
+                    scale: 1.1;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,35 @@
+.icons{
+    position: fixed;
+    z-index: 99;
+    bottom :0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+
+    .icon1{
+        a{
+            text-decoration: none;
+
+            .whatsapp{
+                color: green;
+                font-size: 50px;
+                padding: 15px;
+
+            } 
+        }
+    }
+    .icon1{
+       
+        a{
+            text-decoration: none;
+
+            .phone{
+                color: black;
+                font-size: 50px;
+                padding:15px;
+
+            } 
+        }
+    }
+}

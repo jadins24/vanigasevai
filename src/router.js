@@ -14,6 +14,8 @@ import Plan from "./ourplan/plan";
 import Terms from "./terms/terms";
 import Privacy from "./privacypolicy/privacy";
 import Refund from "./refund/refund";
+import Icons from "./icons/icons";
+import Banking from "./banking/banking";
 const Redux = () =>{
     return(
         <>
@@ -29,6 +31,8 @@ const Main = () =>{
             <Home />
             <Services />
             <Plan />
+            <Banking />
+            <Contact />
 
             
         </>
@@ -44,6 +48,7 @@ const Routing = () =>{
             <BrowserRouter>
                 
                     <Header/>
+                    <Icons />
                     <Routes>
                         <Route path='/' element={<Main/>} />
                         <Route path='/about' element={<About/>} />
@@ -51,6 +56,8 @@ const Routing = () =>{
                         <Route path='/services' element={<Services/>} />
                         
                         <Route path='/Service-details/:index' element={<ServiceDetails/>} />
+                        <Route path='/pricing' element={<Plan/>} />
+                        <Route path='/banking' element={<Banking />} />
                         <Route path='/Privacy policy' element={<Privacy/>} />
                         <Route path='/terms and conditions' element={<Terms/>} />
                         <Route path='/refund policy' element={<Refund/>} />

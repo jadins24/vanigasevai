@@ -1,4 +1,5 @@
-import React from 'react'
+import { useState } from 'react'
+import React  from 'react'
 
 import './header.scss'
 
@@ -23,6 +24,8 @@ const Header = () => {
 			i=1
 		}
 	}
+
+	const [cardAuthendication,changecardAuthendication]=useState(true)
   
 
   return (
@@ -31,11 +34,41 @@ const Header = () => {
             <div className='logo'>
                <img src={require('../assets/img/logo1.png')} alt='no image'/>
             </div>
-
+			
             <div class="menu-bar">
 				        <i class="fa fa-bars" onClick={navbar} ></i>
 			      </div>
+
+				 
             <div className='nav'  onClick={fun}>
+				<a href=''><div className='nav-icon user-rel ' onMouseOver={()=>changecardAuthendication(true)} onMouseLeave={()=>changecardAuthendication(false)}>
+					<div>
+						<p>GST <i className='fa fa-caret-down '></i> </p>
+					</div>
+					{
+						cardAuthendication ?(
+							<div>
+
+							</div>
+						)
+						:null
+						}
+				</div></a>
+				<a href=''><div className='nav-icon user-rel ' onMouseOver={()=>changecardAuthendication(true)} onMouseLeave={()=>changecardAuthendication(false)}>
+					<div>
+					
+					<p>Income tax <i className='fa fa-caret-down '></i> </p>
+					</div>
+					{
+						cardAuthendication ?(
+							<div></div>
+						)
+						:null
+						}
+				</div></a>
+				
+
+
                 <a href='/' >HOME</a>
                 <a href='/about' >ABOUT</a>
                 <a href='/services' >OUR SERVICES</a>
@@ -46,6 +79,8 @@ const Header = () => {
    
 
 	</div>
+
+	
 	
   )
 }
