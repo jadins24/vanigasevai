@@ -20,19 +20,21 @@
                 width:100%;
             }
         }
-        .user-rel{
+        .user-rel-gst , .user-rel-it {
             position: relative;
             display: flex;
             
             
-            .user-card{
+            .user-card-gst , .user-card-it{
                 position: absolute;
-                bottom: -117px;
-                left: 0px;
-                width: 300%;
-                box-shadow: 0px 0px 3px gray;
-                padding: 10px 5px;
-
+                bottom: -145px;
+                left: -18px;
+                box-shadow: 0px 0px 3px #808080a6;
+                padding: 10px 0px;
+                width: 589%;
+                font-size: 14px;
+                background-color: white;
+                z-index: 2;
                 a{
                     padding:20px;
                     text-decoration: none;
@@ -44,6 +46,74 @@
                 }
         
             }
+         }
+         .user-rel-it {
+            position: relative;
+            display: flex;
+            
+            
+            .user-card-it{
+                position: absolute;
+                bottom: -100px;
+                left: -2px;
+                box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.6509803922);
+                padding: 10px 0px;
+                width: 200%;
+                font-size: 14px;
+                background-color: white;
+                z-index: 2;
+                   
+    
+                h5{
+                    padding: 0px 20px;
+                    color: black;
+                }
+                a{
+                    padding:20px;
+                    text-decoration: none;
+                    color: black;
+        
+                }
+                a:hover{
+                    color: aqua;
+                }
+        
+            }
+            
+         }
+         .user-rel-ie {
+            position: relative;
+            display: flex;
+            
+            
+            .user-card-ie{
+                position: absolute;
+                bottom: -189px;
+                left: -2px;
+                box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.6509803922);
+                padding: 10px 0px;
+                width: 200%;
+                font-size: 14px;
+                background-color: white;
+                z-index: 2;
+                   
+    
+                h5{
+                    padding: 0px 20px;
+                    color: black;
+                }
+                a{
+                    padding:20px;
+                    text-decoration: none;
+                    color: black;
+        
+                }
+                a:hover{
+                    color: aqua;
+                }
+        
+            }
+            
          }
         
     }
@@ -57,7 +127,7 @@
         display: none;
     }
     .nav{
-        width: 50%;
+        width: 70%;
     
         a{
             padding:20px;
@@ -79,7 +149,7 @@
         display: flex;
     }
     .nav{
-        width: 50%;
+        width: 70%;
     
         a{
             padding: 0 10px;
@@ -98,7 +168,7 @@
         justify-content: end;
     }
     .nav{
-        width: 50%;
+        width: 70%;
     
         a{
             padding: 0 10px;

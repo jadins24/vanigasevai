@@ -75,6 +75,14 @@ console.log(state);
 
           </div>
         </div>
+        <div className="service-details-content2" >
+          <div className="details1">
+            <h1>{detail.q1}</h1>
+            <p>{detail.p1}</p>
+            <h1>{detail.q2}</h1>
+            <p>{detail.p2}</p>
+          </div>
+        </div>
         
       
       

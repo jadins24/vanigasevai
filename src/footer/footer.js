@@ -6,7 +6,7 @@ const Footer = () =>{
         <div className="footer">
             <div className="footer-container">
             <div className="footer-card res-w">
-                     <img src={require('../assets/img/logo1.png')} alt='no image'/>
+            <img src={require('../assets/img/logo1.png')} alt='no image'/>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 
@@ -41,13 +41,13 @@ const Footer = () =>{
                         <li><a href='/Privacy policy'>Privacy Policy</a></li>
                         <li><a href='/terms and conditions'>Terms and Conditions</a></li>
                         <li><a href='/refund policy'>Refund Policy</a></li>
-                        <li><a href=''>Support</a></li>
-                        <li><a href=''>FAQ</a></li>
+                        <li><a href='/#'>Support</a></li>
+                        <li><a href='/#'>FAQ</a></li>
                     </ul>
                 </div>
                 <div className="address res-w">
                     <h3>Address</h3>
-                     <a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i>No.22, S-2, 2nd Floor, Victory Riya Apartment, Manikandan Nagar, Kundrathur, Chennai - 600069.</a>
+                     <a href="/#"> <i class="fa fa-map-marker" aria-hidden="true"></i>1 13.04071° N, 80, Moovendhar Nagar, 13651° E, Iyyappanthangal, Chennai, Tamil Nadu 600056</a>
                      <a href="mailto:vanigasevai@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>vanigasevai@gmail.com</a>
                      <a href="tel:+919342616702"><i class="fa fa-phone" aria-hidden="true"></i>+91 9342616702</a>
 

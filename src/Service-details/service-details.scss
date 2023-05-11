@@ -3,6 +3,7 @@
     .service-details-container{
         width: 85%;
         margin: 0 auto;
+        text-align: justify;
 
         .service-details-content1{
             display: flex;
@@ -95,6 +96,13 @@
 
             }
 
+        }
+        .service-details-content2{
+
+            .details1{
+                width: 100%;
+
+            }
         }
 
     }

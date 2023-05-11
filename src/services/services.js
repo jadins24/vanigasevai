@@ -1,7 +1,7 @@
 import React from 'react'
 import './services.scss';
 import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import {  useSelector } from "react-redux";
 
 const Services = () => {
 
@@ -37,8 +37,7 @@ const Services = () => {
 
                                     <div className='btns'>
                                         <a href='tel:+919342616702' className='btn'> Contact Now</a>
-                                        <a href=''  onClick={() => goToDetails(index)}  className='' > Read More<i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
-                                    
+                                        <a href='/#'  onClick={() => goToDetails(index)}   > Read More<i class="fa fa-arrow-right" aria-hidden="true"></i> </a>
                                     </div>
                                 </div>
                             </div>

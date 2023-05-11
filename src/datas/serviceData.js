@@ -11,7 +11,10 @@ export const  serviceData=[
         color: "blue",
         sddescription1:"Apply for GST Registration Online in India with Vanigasevai! As per GST legal process, any business operation or any entity with an annual turnover exceeding Rs 40 lakhs must undergo the GST process/procedure in India as a separate taxable provisio.",
         sddescription2:" As per GST jurisdiction, any business operations whose annual turnover exceeds Rs 40 lakhs must register as a separate taxable provision. This procedure is called GST registration. It takes around 2-6 working days to obtain GST registration online in India." ,
-
+        q1:"Overview of GST Registration Online in India ",
+        p1:"Goods and Services Tax, or GST, is a tax levied on all products and services purchased in India. Taxation, value-added tax, and services tax are some indirect taxes replaced in India by the goods and services tax (GST), which is also an indirect tax. According to the Goods and Service Tax Act, which the Indian Government approved on March 29, 2017, the Goods and Service Tax (GST) has been in effect since July 1, 2017. As per GST jurisdiction, if you do business without GST registration, it is considered an offence.",
+        q2:"GST Registration Online in India or Goods and Service Tax - One Nation One Tax",
+        p2:"Being the biggest tax reform in India, GST is levied on goods and services. This includes both Central taxes (CST, Service Tax, Excise Duty) and State taxes (VAT, Entertainment Tax, Luxury Tax, Octroi). This will help the consumer to bear only GST charged by the last dealer in the chain of trade and supply.     As per GST Regime, any company whose annual turnover is more than Rs.40 lakh is required to register as a normal taxable individual. However, there is an exclusion for hill states and the North East, where the annual turnover exceeds Rs.20 lakh for them. As per GST Regime, any company whose annual turnover is more than Rs.40 lakh is required to register as a normal taxable individual. However, there is an exclusion for hill states and the North East, where the annual turnover exceeds Rs.20 lakh for them. Obtaining GST Registration in India is mandatory for all types of businesses whose turnover meets the above-mentioned criteria. If a business entity carries out any business activities without GST registration, it will be conceived as a punishable offense and the business and its owner will be liable to pay heavy penalties and legal issues." ,
     },
     {       
         id:2,
@@ -25,6 +28,10 @@ export const  serviceData=[
         color: "blue",
         sddescription1:"Get your IE Code Registration done online with us today! It is mandatory for all Indian companies that deal or plan to expand their business activities through import and export business operations. In India, the Director-General of Foreign Trade (DGFT), under the Department of Commerce, issues an online computer registration for companies and businesses dealing in imports/exports in the Indian territory1",
         sddescription2:"" ,
+        q1:"Overview of IEC Registration Online in India" ,
+        p1:"IEC Registration is required for anyone looking to start an import/export business registration in India. Documents required for IEC Registration (Import Export Code). Register import export code (IEC) in India Register for IE Code online in India with us! It is mandatory for all Indian companies that deal with or plan to expand their business activities through import and export business operations. Online IE Code Registration is a mandatory 10-digit identifying license, for companies and businesses that deal with import-export transactions in the Indian Territory issued by The Director-General of Foreign Trade (DGFT), under the Department of Commerce, in India. " ,
+        q2:"" ,
+        p2:"" ,
 
         
     },
@@ -40,6 +47,11 @@ export const  serviceData=[
         color: "blue",
         sddescription1:"Trademark registration in India is essential for businesses looking to establish an individual identity on the market. A registered trademark can be a symbol, image, phrase, word, sound, graphic, or color scheme that distinguishes your products or services from competitors. Vanigasevai specialists offer trademark registration services online, making it convenient for businesses to secure their brand's future success. By registering your brand name, you can gain a competitive advantage in the market and protect your distinctive identity. Don't forget to prioritize trademark registration in India and brand name registration in India to safeguard your business.",
         sddescription2:"" ,
+        q1:"" ,
+        p1:"" ,
+        q2:"" ,
+        p2:"" ,
+
     },
     {       
         id:4,
@@ -53,6 +65,10 @@ export const  serviceData=[
         color: "blue",
         sddescription1:"OPC, or One Person Company, is a business setup owned by a single individual. It was a concept not available until the Companies Act 2013, which allowed businesses to be formed with one director and member. OPCs provide the same benefits as any other company, but with the advantage that all decisions and operations can be carried out by a single individual. This makes OPCs an excellent solution for entrepreneurs who want to start their own businesses without extra help. With the Companies Act 2013, it is now easier than ever to register an OPC and start trading.",
         sddescription2:"" ,
+        q1:"" ,
+        p1:"" ,
+        q2:"" ,
+        p2:"" ,
         
         
     },
@@ -67,8 +83,7 @@ export const  serviceData=[
         icon: "fa fa-cubes",
         color: "blue",
         sddescription1:"Registering your small business under Udyog Aadhaar MSME online registration can grant you access to a variety of benefits, including tax exemptions, sector lending, capital investment, and power tariff grants. This is an incredibly valuable opportunity for small businesses, as MSMEs – or Micro, Small, and Medium Enterprises – are a crucial part of India's socio-economic development. It is essential for MSMEs to take advantage of Udyog Aadhaar MSME online registration in order to maximize their potential and to ensure the country's continued progress. This online registration process is fast and efficient, making it easy to access the many benefits that come with it. With the resources provided by Udyog Aadhaar MSME online registration, small businesses in India can thrive and contribute to the nation's continued growth and development.",
-        sddescription2:"" ,
-        
+        sddescription2:"" 
     },
     {       
         id:6,
@@ -82,6 +97,10 @@ export const  serviceData=[
         color: "blue",
         sddescription1:"Apply for FSSAI License with Food Registration Online Consultant India ! Get real deals and juicy terms. Pay the charge at a reasonable rate. You can obtain your FSSAI license even before you get your food order! The main aim of the Food Safety and Standards Authority of India or FSSAI License Online is to reduce the chances of food adulteration, and substandard or inferior food products, and improve the accountability of makers by granting them a license for food service business.",
         sddescription2:"" ,
+        q1:"" ,
+        p1:"" ,
+        q2:"" ,
+        p2:"" ,
         
     },
     {       
